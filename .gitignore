@@ -1,0 +1,6 @@
+# ignowruj pliki wykonywalne
+
+*.o
+*.out
+*.swp
+
