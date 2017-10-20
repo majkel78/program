@@ -30,5 +30,9 @@ int main(void)
 	}
 	// po klamrze nie trzeba stawiac srednika, jego postawienie jest opcjonalne
 
+	printf("Podaj a=");scanf("%i",&a);
+	printf("Podaj b=");scanf("%i",&b);
+	printf("Wynik dodawania: %i\n",dodaj(a,b));
+
 	return 0;
 }
