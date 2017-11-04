@@ -10,7 +10,7 @@ int main()		// funkcja główna
 }
 ```
 
-Funkcje w języku C:
+Funkcje w języku C (przykłady):
 
 ```c
 puts('Pierwszy program');	// wyświetlenie tekstu z przejściem do nowej linii
@@ -32,7 +32,7 @@ int mnoz(int a, int b)		// zadeklarowanie funkcji która zwraca iloczyn podanych
 printf("Wynik mnozenia = %d\n",mnoz(4,5));	// przykład pobrania danych z wywoływanej funkcji mnoz()
 ```
 
-Instrukcje warunkowe:
+Instrukcje warunkowe (if...else):
 
 ```c
 int licz(int a,int b, char wybor)
