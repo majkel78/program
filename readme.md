@@ -65,3 +65,5 @@ printf("\n");	// przykład użycia znaku specjalnego (tutaj znak nowej linii)
 //      \t - tabulator
 //      \\ - "backslash"
 ```
+
+Pierwszy program załączony w niniejszym repozytorium ma być przykładem bardzo prostego kalkulatora, który pobiera z konsoli wartości dwóch zmiennych i zwraca wynik wykonanej na nich operacji matematycznej (dodawanie, odejmowanie, mnożenie, dzielenie).
