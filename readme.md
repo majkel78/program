@@ -3,21 +3,21 @@
 Struktura programu w języku C:
 
 ```c
-int main()			// funkcja główna
+int main()		// funkcja główna
 {
 	puts('Hello');	// program
-	return 0;		// zakończenie funkcji i zwrócenie wartości (tutaj 0)
+	return 0;	// zakończenie funkcji i zwrócenie wartości (tutaj 0)
 }
 ```
 
 Funkcje w języku C:
 
 ```c
-puts('Pierwszy program');		// wyświetlenie tekstu z przejściem do nowej linii
-putchar('A');					// wyświetlenie pojedyńczego znaku (tutaj litery 'A')
-putchar(66);					// wyświetlenie znaku o kodzie ASCII 66
-printf("Zmienna = %d",a);		// wyświetlenie sformatowanego tekstu wraz z wartością zmiennej "a"
-scanf("%d",&a);					// pobranie z konsoli wartości i wpisanie jej do zmiennej "a"
+puts('Pierwszy program');	// wyświetlenie tekstu z przejściem do nowej linii
+putchar('A');			// wyświetlenie pojedyńczego znaku (tutaj litery 'A')
+putchar(66);			// wyświetlenie znaku o kodzie ASCII 66
+printf("Zmienna = %d",a);	// wyświetlenie sformatowanego tekstu wraz z wartością zmiennej "a"
+scanf("%d",&a);			// pobranie z konsoli wartości i wpisanie jej do zmiennej "a"
 
 ```
 
@@ -49,11 +49,11 @@ int licz(int a,int b, char wybor)
 Typy zmiennych:
 
 ```c
-int a;			// zmienna typu "integer" - liczba całkowita
-float a;		// zmienna zmiennoprzecinkowa pojedyńczej precyzji
-double a;		// zmienna zmiennoprzecinkowa podwójnej precyzji
-char a;			// zmienna zawierająca znak tekstowy;
-char *a="Tekst"	// zmienna zawierająca wskaźnik na ciąg znaków z jednoczesnym przypisaniem do niniejszego ciągu
+int a;		// zmienna typu "integer" - liczba całkowita
+float a;	// zmienna zmiennoprzecinkowa pojedyńczej precyzji
+double a;	// zmienna zmiennoprzecinkowa podwójnej precyzji
+char a;		// zmienna zawierająca znak tekstowy;
+char *a="Tekst";// zmienna zawierająca wskaźnik na ciąg znaków z jednoczesnym przypisaniem do niniejszego ciągu
 ```
 
 Znaki specjalne:
